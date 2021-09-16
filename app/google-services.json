@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "984431604585",
+    "firebase_url": "https://tagbiz-ab9d8.firebaseio.com",
+    "project_id": "tagbiz-ab9d8",
+    "storage_bucket": "tagbiz-ab9d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984431604585:android:2ef058f53ae896eb3443f8",
+        "android_client_info": {
+          "package_name": "com.tagloy.tagbiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984431604585-jfekg3384aif144toj914mj58kimalk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tagloy.tagbiz",
+            "certificate_hash": "adcba02621b2ffa4be438ccad64f57458c3630af"
+          }
+        },
+        {
+          "client_id": "984431604585-5g6dcsqbm7seetm3rvd24c0ibrrqkboa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm5RahvW9OTMB0j73NLmMFSTfeOfvBJrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984431604585-5g6dcsqbm7seetm3rvd24c0ibrrqkboa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/approvedFeedRefresh"
+    tools:context=".fragment.ApprovedFeedFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/approvedFeedRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"/>
+
+        <ProgressBar
+            android:id="@+id/approvedFeedProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/approvedLoadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/black_border"
+            android:layout_below="@id/approvedFeedRecyclerView"
+            android:text="@string/load_more"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/errorTextApprove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/error_text"
+            android:visibility="gone"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

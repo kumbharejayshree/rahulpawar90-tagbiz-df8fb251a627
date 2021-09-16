@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/username_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/tagbiz_white" />
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/password_edit"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:hint="@string/username_hint"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/password_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#20000000"
+        android:text="@string/login_button"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

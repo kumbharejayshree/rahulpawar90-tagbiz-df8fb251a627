@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_feeds"
+            android:icon="@drawable/ic_web_black_48dp"
+            android:title="@string/feeds"/>
+
+        <item
+            android:id="@+id/nav_publisher"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/publisher"/>
+
+        <item
+            android:id="@+id/nav_highlight"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/highlight"/>
+
+        <item
+            android:id="@+id/nav_outlets"
+            android:icon="@drawable/ic_autorenew_black_48dp"
+            android:title="@string/outlets"/>
+    </group>
+
+    <item android:title="@string/version"/>
+</menu>
